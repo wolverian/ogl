@@ -4,4 +4,4 @@ LDLIBS=-lglfw -lglew -framework OpenGL
 foo: foo.o
 
 clean:
-	rm -f foo
+	rm -f foo *.o
